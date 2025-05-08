@@ -1,0 +1,58 @@
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/out/
+
+# Ignore all compiled files
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Ignore generated files by IDEs or compilers
+*.dSYM/
+*.vs/
+.vscode/
+.idea/
+
+# Ignore cmake build files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+Makefile.user
+CMakeScripts/
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Ignore debugging files
+*.log
+*.core
+
+# Ignore dependency managers
+*.lib
+*.exp
+*.pdb
+*.idb
+
+# Ignore dependency manager files (e.g., Conan, vcpkg, etc.)
+# If using Conan or similar tools, you might want to ignore dependency cache directories
+/conan_data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore files related to Visual Studio (if using)
+.vs/
+.vscode/
+
+# Ignore any temporary or backup files
+*.~ 
+*.swp
